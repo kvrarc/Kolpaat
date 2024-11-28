@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1B5ED02C8F21F50069E8A8 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B5ECF2C8F21F50069E8A8 /* RemoteImage.swift */; };
+		FF3C3DBA2C92D33B008B0B83 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C3DB92C92D33B008B0B83 /* String+Ext.swift */; };
+		FF4A72582C903D3B007F9DB8 /* KolpaatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A72572C903D3B007F9DB8 /* KolpaatDetailView.swift */; };
+		FF4A725B2C904D78007F9DB8 /* KPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A725A2C904D78007F9DB8 /* KPButton.swift */; };
+		FF4A725D2C904F0C007F9DB8 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A725C2C904F0C007F9DB8 /* XDismissButton.swift */; };
+		FF7AEA5B2C88783E00D8B4AF /* KolpaatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7AEA5A2C88783E00D8B4AF /* KolpaatApp.swift */; };
+		FF7AEA5D2C88783E00D8B4AF /* KolpaatTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7AEA5C2C88783E00D8B4AF /* KolpaatTabView.swift */; };
+		FF7AEA5F2C88783F00D8B4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7AEA5E2C88783F00D8B4AF /* Assets.xcassets */; };
+		FF7AEA622C88783F00D8B4AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7AEA612C88783F00D8B4AF /* Preview Assets.xcassets */; };
+		FF7AEA692C8878FC00D8B4AF /* KolpaatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7AEA682C8878FC00D8B4AF /* KolpaatListView.swift */; };
+		FF7AEA6B2C88790F00D8B4AF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7AEA6A2C88790F00D8B4AF /* AccountView.swift */; };
+		FF7AEA6D2C88792700D8B4AF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7AEA6C2C88792700D8B4AF /* OrderView.swift */; };
+		FFC8BC482C8D84290034E20A /* Kolpaat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC472C8D84290034E20A /* Kolpaat.swift */; };
+		FFC8BC4A2C8D8E560034E20A /* KolpaatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC492C8D8E560034E20A /* KolpaatListCell.swift */; };
+		FFC8BC4C2C8D8F9E0034E20A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC4B2C8D8F9E0034E20A /* NetworkManager.swift */; };
+		FFC8BC4E2C8D917C0034E20A /* KPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC4D2C8D917C0034E20A /* KPError.swift */; };
+		FFC8BC502C8D9CD30034E20A /* KolpaatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC4F2C8D9CD30034E20A /* KolpaatListViewModel.swift */; };
+		FFC8BC522C8DA3200034E20A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8BC512C8DA3200034E20A /* Alert.swift */; };
+		FFD3956F2C918ED8005C1EFD /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3956E2C918ED8005C1EFD /* AccountViewModel.swift */; };
+		FFD395742C919600005C1EFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD395732C919600005C1EFD /* User.swift */; };
+		FFD395772C91A42B005C1EFD /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD395762C91A42B005C1EFD /* EmptyState.swift */; };
+		FFD395792C91A815005C1EFD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD395782C91A815005C1EFD /* Order.swift */; };
+		FFD3957B2C91B886005C1EFD /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3957A2C91B886005C1EFD /* CustomModifiers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF1B5ECF2C8F21F50069E8A8 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		FF3C3DB92C92D33B008B0B83 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		FF4A72572C903D3B007F9DB8 /* KolpaatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatDetailView.swift; sourceTree = "<group>"; };
+		FF4A725A2C904D78007F9DB8 /* KPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPButton.swift; sourceTree = "<group>"; };
+		FF4A725C2C904F0C007F9DB8 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		FF7AEA572C88783E00D8B4AF /* Kolpaat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolpaat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7AEA5A2C88783E00D8B4AF /* KolpaatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatApp.swift; sourceTree = "<group>"; };
+		FF7AEA5C2C88783E00D8B4AF /* KolpaatTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatTabView.swift; sourceTree = "<group>"; };
+		FF7AEA5E2C88783F00D8B4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7AEA612C88783F00D8B4AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF7AEA682C8878FC00D8B4AF /* KolpaatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatListView.swift; sourceTree = "<group>"; };
+		FF7AEA6A2C88790F00D8B4AF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FF7AEA6C2C88792700D8B4AF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		FFC8BC472C8D84290034E20A /* Kolpaat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kolpaat.swift; sourceTree = "<group>"; };
+		FFC8BC492C8D8E560034E20A /* KolpaatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatListCell.swift; sourceTree = "<group>"; };
+		FFC8BC4B2C8D8F9E0034E20A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FFC8BC4D2C8D917C0034E20A /* KPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPError.swift; sourceTree = "<group>"; };
+		FFC8BC4F2C8D9CD30034E20A /* KolpaatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatListViewModel.swift; sourceTree = "<group>"; };
+		FFC8BC512C8DA3200034E20A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FFD3956E2C918ED8005C1EFD /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		FFD395732C919600005C1EFD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FFD395762C91A42B005C1EFD /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		FFD395782C91A815005C1EFD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FFD3957A2C91B886005C1EFD /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7AEA542C88783E00D8B4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1B5ED12C8F276D0069E8A8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA5C2C88783E00D8B4AF /* KolpaatTabView.swift */,
+				FF1B5ED22C8F27790069E8A8 /* KolpaatListView */,
+				FF1B5ED32C8F27850069E8A8 /* AccountView */,
+				FF1B5ED42C8F278E0069E8A8 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FF1B5ED22C8F27790069E8A8 /* KolpaatListView */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA682C8878FC00D8B4AF /* KolpaatListView.swift */,
+				FFC8BC4F2C8D9CD30034E20A /* KolpaatListViewModel.swift */,
+				FF4A72572C903D3B007F9DB8 /* KolpaatDetailView.swift */,
+			);
+			path = KolpaatListView;
+			sourceTree = "<group>";
+		};
+		FF1B5ED32C8F27850069E8A8 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA6A2C88790F00D8B4AF /* AccountView.swift */,
+				FFD3956E2C918ED8005C1EFD /* AccountViewModel.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		FF1B5ED42C8F278E0069E8A8 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA6C2C88792700D8B4AF /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		FF1B5ED52C8F28120069E8A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FFD395702C9190FE005C1EFD /* Extensions */,
+				FF1B5ED82C8F28460069E8A8 /* Alerts */,
+				FF1B5ED62C8F28220069E8A8 /* Managers */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FF1B5ED62C8F28220069E8A8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8BC4B2C8D8F9E0034E20A /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FF1B5ED82C8F28460069E8A8 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8BC512C8DA3200034E20A /* Alert.swift */,
+				FFC8BC4D2C8D917C0034E20A /* KPError.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		FF1B5ED92C8F28710069E8A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8BC472C8D84290034E20A /* Kolpaat.swift */,
+				FFD395732C919600005C1EFD /* User.swift */,
+				FFD395782C91A815005C1EFD /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF1B5EDA2C8F28AF0069E8A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFD395752C91A414005C1EFD /* Empty States */,
+				FF4A72592C904D5F007F9DB8 /* Buttons */,
+				FF1B5EDC2C8F28C90069E8A8 /* Image */,
+				FF1B5EDB2C8F28BC0069E8A8 /* Cells */,
+				FFD3957A2C91B886005C1EFD /* CustomModifiers.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF1B5EDB2C8F28BC0069E8A8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8BC492C8D8E560034E20A /* KolpaatListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF1B5EDC2C8F28C90069E8A8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B5ECF2C8F21F50069E8A8 /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		FF4A72592C904D5F007F9DB8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A725A2C904D78007F9DB8 /* KPButton.swift */,
+				FF4A725C2C904F0C007F9DB8 /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FF7AEA4E2C88783E00D8B4AF = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA592C88783E00D8B4AF /* Kolpaat */,
+				FF7AEA582C88783E00D8B4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7AEA582C88783E00D8B4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA572C88783E00D8B4AF /* Kolpaat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7AEA592C88783E00D8B4AF /* Kolpaat */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA5A2C88783E00D8B4AF /* KolpaatApp.swift */,
+				FF1B5ED92C8F28710069E8A8 /* Model */,
+				FF1B5ED12C8F276D0069E8A8 /* Screens */,
+				FF1B5EDA2C8F28AF0069E8A8 /* Views */,
+				FF1B5ED52C8F28120069E8A8 /* Components */,
+				FF7AEA5E2C88783F00D8B4AF /* Assets.xcassets */,
+				FF7AEA602C88783F00D8B4AF /* Preview Content */,
+			);
+			path = Kolpaat;
+			sourceTree = "<group>";
+		};
+		FF7AEA602C88783F00D8B4AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA612C88783F00D8B4AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFD395702C9190FE005C1EFD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF3C3DB92C92D33B008B0B83 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FFD395752C91A414005C1EFD /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				FFD395762C91A42B005C1EFD /* EmptyState.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7AEA562C88783E00D8B4AF /* Kolpaat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7AEA652C88783F00D8B4AF /* Build configuration list for PBXNativeTarget "Kolpaat" */;
+			buildPhases = (
+				FF7AEA532C88783E00D8B4AF /* Sources */,
+				FF7AEA542C88783E00D8B4AF /* Frameworks */,
+				FF7AEA552C88783E00D8B4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kolpaat;
+			productName = Kolpaat;
+			productReference = FF7AEA572C88783E00D8B4AF /* Kolpaat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7AEA4F2C88783E00D8B4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF7AEA562C88783E00D8B4AF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FF7AEA522C88783E00D8B4AF /* Build configuration list for PBXProject "Kolpaat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7AEA4E2C88783E00D8B4AF;
+			productRefGroup = FF7AEA582C88783E00D8B4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7AEA562C88783E00D8B4AF /* Kolpaat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7AEA552C88783E00D8B4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7AEA622C88783F00D8B4AF /* Preview Assets.xcassets in Resources */,
+				FF7AEA5F2C88783F00D8B4AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7AEA532C88783E00D8B4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8BC482C8D84290034E20A /* Kolpaat.swift in Sources */,
+				FFC8BC4E2C8D917C0034E20A /* KPError.swift in Sources */,
+				FFD395792C91A815005C1EFD /* Order.swift in Sources */,
+				FF7AEA6B2C88790F00D8B4AF /* AccountView.swift in Sources */,
+				FF1B5ED02C8F21F50069E8A8 /* RemoteImage.swift in Sources */,
+				FF4A725B2C904D78007F9DB8 /* KPButton.swift in Sources */,
+				FFC8BC502C8D9CD30034E20A /* KolpaatListViewModel.swift in Sources */,
+				FF7AEA5D2C88783E00D8B4AF /* KolpaatTabView.swift in Sources */,
+				FF4A72582C903D3B007F9DB8 /* KolpaatDetailView.swift in Sources */,
+				FF7AEA5B2C88783E00D8B4AF /* KolpaatApp.swift in Sources */,
+				FFC8BC4C2C8D8F9E0034E20A /* NetworkManager.swift in Sources */,
+				FFD3957B2C91B886005C1EFD /* CustomModifiers.swift in Sources */,
+				FFD3956F2C918ED8005C1EFD /* AccountViewModel.swift in Sources */,
+				FF7AEA692C8878FC00D8B4AF /* KolpaatListView.swift in Sources */,
+				FFC8BC522C8DA3200034E20A /* Alert.swift in Sources */,
+				FF3C3DBA2C92D33B008B0B83 /* String+Ext.swift in Sources */,
+				FFD395772C91A42B005C1EFD /* EmptyState.swift in Sources */,
+				FFD395742C919600005C1EFD /* User.swift in Sources */,
+				FF7AEA6D2C88792700D8B4AF /* OrderView.swift in Sources */,
+				FFC8BC4A2C8D8E560034E20A /* KolpaatListCell.swift in Sources */,
+				FF4A725D2C904F0C007F9DB8 /* XDismissButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF7AEA632C88783F00D8B4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF7AEA642C88783F00D8B4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7AEA662C88783F00D8B4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kolpaat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handsomeware.Kolpaat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7AEA672C88783F00D8B4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kolpaat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handsomeware.Kolpaat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7AEA522C88783E00D8B4AF /* Build configuration list for PBXProject "Kolpaat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7AEA632C88783F00D8B4AF /* Debug */,
+				FF7AEA642C88783F00D8B4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7AEA652C88783F00D8B4AF /* Build configuration list for PBXNativeTarget "Kolpaat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7AEA662C88783F00D8B4AF /* Debug */,
+				FF7AEA672C88783F00D8B4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7AEA4F2C88783E00D8B4AF /* Project object */;
+}
