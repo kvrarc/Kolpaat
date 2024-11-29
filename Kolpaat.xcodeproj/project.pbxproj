@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,12 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F93282292CFA43530082BF85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FF1B5ECF2C8F21F50069E8A8 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		FF3C3DB92C92D33B008B0B83 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		FF4A72572C903D3B007F9DB8 /* KolpaatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatDetailView.swift; sourceTree = "<group>"; };
 		FF4A725A2C904D78007F9DB8 /* KPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPButton.swift; sourceTree = "<group>"; };
 		FF4A725C2C904F0C007F9DB8 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
-		FF7AEA572C88783E00D8B4AF /* Kolpaat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolpaat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7AEA572C88783E00D8B4AF /* Kolpaat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Kolpaat.app; path = "/Users/kvrarc/Documents/Development/iOS/Kolpaat/build/Debug-iphoneos/Kolpaat.app"; sourceTree = "<absolute>"; };
 		FF7AEA5A2C88783E00D8B4AF /* KolpaatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatApp.swift; sourceTree = "<group>"; };
 		FF7AEA5C2C88783E00D8B4AF /* KolpaatTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolpaatTabView.swift; sourceTree = "<group>"; };
 		FF7AEA5E2C88783F00D8B4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +59,10 @@
 		FFD395782C91A815005C1EFD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		FFD3957A2C91B886005C1EFD /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F932822A2CFA48560082BF85 /* assets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = assets; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FF7AEA542C88783E00D8B4AF /* Frameworks */ = {
@@ -185,17 +190,10 @@
 		FF7AEA4E2C88783E00D8B4AF = {
 			isa = PBXGroup;
 			children = (
+				F93282292CFA43530082BF85 /* README.md */,
 				FF7AEA592C88783E00D8B4AF /* Kolpaat */,
-				FF7AEA582C88783E00D8B4AF /* Products */,
+				F932822A2CFA48560082BF85 /* assets */,
 			);
-			sourceTree = "<group>";
-		};
-		FF7AEA582C88783E00D8B4AF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF7AEA572C88783E00D8B4AF /* Kolpaat.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FF7AEA592C88783E00D8B4AF /* Kolpaat */ = {
@@ -280,7 +278,7 @@
 				Base,
 			);
 			mainGroup = FF7AEA4E2C88783E00D8B4AF;
-			productRefGroup = FF7AEA582C88783E00D8B4AF /* Products */;
+			productRefGroup = FF7AEA4E2C88783E00D8B4AF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
